@@ -1,0 +1,44 @@
+.start-menu {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    width: 200px;
+    background: #1e1e1e;
+    border: 1px solid #333;
+    border-radius: 4px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s;
+  }
+  
+  .start-menu.open {
+    transform: translateY(-100%);
+  }
+  
+  .start-button {
+    background: #4caf50;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .start-menu-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .start-menu-content li {
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .start-menu-content li:hover {
+    background-color: #333;
+  }
+  

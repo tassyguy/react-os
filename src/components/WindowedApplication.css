@@ -1,0 +1,34 @@
+/* Window Styles */
+.window-container {
+    position: absolute;
+    background: #fff;
+    border: 1px solid #333;
+  }
+  
+  .window {
+    position: relative;
+  }
+  
+  /* Title Bar Styles */
+  .window-title-bar {
+    background: #333;
+    color: #fff;
+    padding: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .window-title-bar span {
+    flex: 1;
+  }
+  
+  /* Close Button Styles */
+  .window-close-button {
+    background: #f00;
+    color: #fff;
+    border: none;
+    padding: 4px 8px;
+    cursor: pointer;
+  }
+  
